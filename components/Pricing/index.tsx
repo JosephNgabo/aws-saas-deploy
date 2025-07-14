@@ -76,7 +76,7 @@ const Pricing = () => {
           </PricingBox>
           <PricingBox
             packageName="Growth"
-            price={isMonthly ? "87" : "870"}
+            price={isMonthly ? "57" : "570"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Best for growing businesses needing more resources and support."
           >
