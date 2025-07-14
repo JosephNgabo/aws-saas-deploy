@@ -15,7 +15,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="About Joseph Cloud Labs"
-        description="Discover our story, values, and how JCL can help organizations succeed in the cloud with innovative solutions and expert guidance."
+        description="Discover our story and how JCL can help organizations succeed in the cloud with innovative solutions and expert guidance."
       />
       <AboutSectionOne />
       <AboutSectionTwo />
