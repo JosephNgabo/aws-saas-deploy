@@ -1,22 +1,21 @@
-# Buildspec version declaration (required by AWS CodeBuild)
 version: 0.2
 
 phases:
   install:
     runtime-versions:
-      nodejs: 18  # Specify Node.js version to use in CodeBuild
+      nodejs: 18
     commands:
       - echo Installing dependencies...
-      - npm install  # Install all project dependencies from package.json
+      - npm install
 
   build:
     commands:
       - echo Building Next.js App...
-      - npm run build  # Build your Next.js application
+      - npm run build
       - echo Exporting Static Files...
-      - npm run export  # Export the app as static files (outputs to /out directory)
+      - npm run export
 
 artifacts:
-  files:sp
-    - '**/*'  # Include all files in the output directory
-  base-directory: out  # Tell CodeBuild where to find the exported static files
+  files:
+    - '**/*'
+  base-directory: out
