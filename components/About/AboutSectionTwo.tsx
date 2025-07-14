@@ -47,7 +47,7 @@ const AboutSectionTwo = () => {
                   24/7 global support
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Rely on JCL's dedicated support team, available around the clock to keep your cloud services running smoothly worldwide.
+                  Rely on JCL&#39;s dedicated support team, available around the clock to keep your cloud services running smoothly worldwide.
                 </p>
               </div>
             </div>
